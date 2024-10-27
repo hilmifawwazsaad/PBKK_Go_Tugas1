@@ -8,11 +8,13 @@ import (
 )
 
 func reverseWord(word string) string {
-	runes := []rune(word)
-	for i, j := 0, len(runes)-1; i < j; i, j = i+1, j-1 {
-		runes[i], runes[j] = runes[j], runes[i]
+	reversed := ""
+	
+	for i := len(word) - 1; i >= 0; i-- {
+		reversed += string(word[i]) 
 	}
-	return string(runes)
+
+	return reversed
 }
 
 func main() {
