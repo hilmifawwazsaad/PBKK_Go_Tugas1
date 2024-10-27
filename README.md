@@ -34,7 +34,7 @@ imliH zawwaF da'aS CT
 ```
 
 ### Cara Menjalankan
-1. Pastokan Go sudah terinstall pada sistem operasi anda
+1. Pastikan Go sudah terinstall pada sistem operasi anda
 2. Clone repo github ini
 3. Jalankan program soal nomor 1 dengan command `go run tgs1.go`
 4. Untuk menjelankan program soal nomor 2, lakukan dengan command `go run tgs2.go`
